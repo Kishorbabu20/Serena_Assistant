@@ -1,0 +1,5 @@
+- task: AzureVmssDeployment@0
+  inputs:
+    action: 'Update image'
+    vmssName: 
+    vmssOsType: 'Linux'
